@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 #include <unistd.h>
-/*
+/**
  * main - get a random int and print whether it is pos, neg, or zero
  *
  * Return: 0 always
