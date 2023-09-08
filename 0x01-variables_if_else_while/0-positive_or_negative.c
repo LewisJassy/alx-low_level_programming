@@ -2,9 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 #include <unistd.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/*
+ * main - get a random int and print whether it is pos, neg, or zero
+ *
+ * Return: 0 always
+ */
 int main(void)
 {
 	int n;
@@ -15,13 +17,13 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}
-	else if(n == 0)
+	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
 	}
 	else
 	{
 		printf("%d is negative\n", n);
-	}	
+	}
 	return (0);
 }
