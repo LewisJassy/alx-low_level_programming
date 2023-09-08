@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - printing a to z in both lower and upper case
+ * main - print characters 'a' to 'z' then 'A' to 'Z'
  *
  * Return : 0  always
  */
