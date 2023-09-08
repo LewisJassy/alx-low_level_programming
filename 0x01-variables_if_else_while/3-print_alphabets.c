@@ -3,7 +3,7 @@
 /**
  * main - print characters 'a' to 'z' then 'A' to 'Z'
  *
- * Return : 0  always
+ * Return: 0 always
  */
 int main(void)
 {
