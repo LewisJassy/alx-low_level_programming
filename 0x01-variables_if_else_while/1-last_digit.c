@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include <unistd.h>
 /**
  * main - get random int and compare last digit to 0, 5 and 6
  *
