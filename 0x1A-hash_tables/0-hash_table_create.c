@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 hash_table_t *hash_table_create(unsigned long int size) {
-    hash_table_t *array = (hash_table_t*)malloc(sizeof(hash_table_t));
+    hash_table_t **array = (hash_table_t*)malloc(sizeof(hash_table_t));
     size_t i;
 
     
-    hash_table_t* new_table = (hash_table_t*)malloc(sizeof(hash_table_t));
+    hash_table_t *new_table = (hash_table_t*)malloc(sizeof(hash_table_t));
     if (size == 0){
         return NULL;
     }
