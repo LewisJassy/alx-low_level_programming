@@ -26,9 +26,9 @@ typedef struct hash_node_s
  */
 typedef struct hash_table_s
 {
-     unsigned long int size; //Size of hash table
-     hash_node_t **array; // a pointer to an array of pointers
-} hash_table_t;  // This structure rep a hash table with an array of buckets
+     unsigned long int size; 
+     hash_node_t **array; 
+} hash_table_t;  
 
 hash_table_t *hash_table_create(unsigned long int size);
 
