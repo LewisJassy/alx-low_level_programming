@@ -44,7 +44,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	if ((ht->array)[key_i] != NULL)
 	{
 		temp_node = (ht->array)[key_i];
-		while(temp_node)
+		while (temp_node)
 		{
 			if (strcmp(temp_node->key, key_copy) == 0)
 			{
