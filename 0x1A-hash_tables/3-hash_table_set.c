@@ -2,10 +2,10 @@
 #include <string.h>
 
 /**
- * hash_table_set - add new entry to hash table
- * @ht: pointer to hash table
- * @key: key to hash into index and store in node
- * @value: value to add to new node
+ * hash_table_set - sets a hash table key value pair in hash table
+ * @ht: hash table to set in
+ * @key: key to generate hash value and index off
+ * @value: value to set as hash_node's value
  *
  * Return: 1 if successful, 0 if malloc fails.
  */
