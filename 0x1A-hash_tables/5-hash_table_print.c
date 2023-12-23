@@ -32,8 +32,7 @@ void hash_table_print(const hash_table_t *ht)
 }
 
 /**
- * not_last_node - checks if index where node is is the last node
-   of a hash table.
+ * not_last_node - checks if index where node is is the last node of a hash table.
  * @ht: hash table to check
  * @node: node to check
  *
